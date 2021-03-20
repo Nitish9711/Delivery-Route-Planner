@@ -1,0 +1,53 @@
+# login\login.py: 2
+# login\register.py: 3
+Pillow == 7.2.0
+
+# login\login.py: 7
+# login\register.py: 4
+PyMySQL == 0.10.1
+
+
+
+# login\register.py: 85
+captcha-varis-main == 1.0
+
+# backend\route.py: 24,25
+geopy == 2.0.0
+
+# backend\route.py: 16
+gmplot == 1.4.1
+
+# login\register.py: 85
+nebulalogin == 0.9
+
+# backend\route.py: 19
+# coordinates\calculate_location_Coordinates.py: 13
+opencage == 1.2.1
+
+# backend\route.py: 2,3
+ortools == 8.0.8283
+
+# backend\assign_orders.py: 2
+# backend\distribute_data.py: 2
+# backend\employee_data.py: 2
+# backend\route.py: 7
+# backend\storing_orders.py: 2
+# coordinates\calculate_location_Coordinates.py: 1
+pandas == 1.0.5
+
+# login\register.py: 85
+passman == 1.2.3
+
+# backend\assign_orders.py: 1
+# backend\database.py: 1
+# backend\distribute_data.py: 1
+# backend\employee_data.py: 1
+# backend\route.py: 6,13
+# backend\storing_orders.py: 1
+# coordinates\calculate_location_Coordinates.py: 4
+pymongo == 3.11.0
+
+
+
+# backend\route.py: 15
+requests == 2.24.0
