@@ -15,7 +15,7 @@
 ## demo
 
 [Click Here to See the PPT](https://drive.google.com/file/d/1uk57w8jLLdFR8R_OlYDj4onyYjFqwTue/view?usp=sharing)
-[Click Here to See the DEMO VIDEO](https://drive.google.com/file/d/1Fg-Hi09E-hwfMJ5v5890-ANpNu-PUwA-/view?usp=sharing)
+[Click Here to See the Report](https://drive.google.com/file/d/1Fg-Hi09E-hwfMJ5v5890-ANpNu-PUwA-/view?usp=sharing)
 
 ## About
 
