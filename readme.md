@@ -3,8 +3,6 @@
 </br>
 
 ## Table of Contents
-
-- [delivery route planner](#delivery route planner)
   - [Table of Contents](#table-of-contents)
   - [demo](#demo)
   - [About](#about)
