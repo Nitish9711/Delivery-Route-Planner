@@ -1,18 +1,14 @@
-# **QuickToll**
-
-#### *An autotmatice Toll System*
+# Efficient delivery route planner
 
 </br>
 
-![Toll System](Website/static/img/2.jpg)
-
 ## Table of Contents
 
-- [**QuickToll**](#quicktoll)
-  - [*An autotmatice Toll System*](#an-autotmatice-toll-system)
+- [delivery route planner](#delivery route planner)
   - [Table of Contents](#table-of-contents)
   - [demo](#demo)
   - [About](#about)
+  - [Screenshots](#screenshots)
   - [Installation Prerequisites](#installation-prerequisites)
   - [How to Run this Project](#how-to-run-this-project)
   - [Contributors](#contributors)
@@ -24,42 +20,36 @@
 
 ## About
 
-Traffic congestions at toll booths are a phenomenon noticed at all tollbooths situated between major cities around the world. Traffic conjunction nearby toll stations cause wastage of time due to large queues and a large amount of air and sound pollution.
+This project deals with the ‘Efficient Delivery: Route Planner’. The software is basically user specific and built for the manager of a corporation to have a look through the work in progress, maintaining the employees’ details, maintaining the order details and how are they being processed at what stage.
 
-The main objective of this Automatic toll system is to implement a user-friendly stop free system where you don’t have to stop at the toll plaza in-order to manually pay the toll fee which in order saves time and reduces traffic conjunction which wastes a lot of journey time and fuel.
+In the previous system everything had to be processed manually which at times becomes very hectic for the chief management. All the work had to be fed manually and processed manually without the assurance of authenticity and efficiency of the working/processing.
 
-This Project has the following functionalities :
+Now we have built a platform/software where in the chief managing person has the powers to make changes to employees’ file, orders’ list and also delivery an efficient route which the employees’ will follow for the betterment of the company and the timely execution of the orders. The existing system is not totally automated. Though the system is computerized to a particular extent.
+The different processes involved are:
 
-* *Vehicle Number Plate is detected by Deep Learning Model Trained.
+* To maintain details of bookings.
+* To maintain details of employees.
+* To maintain details of the routes followed by delivery persons.
+* Efficiency.
+  </br>
+  </br>
 
-- The users  can register their  complaints about anything to the admin.
-- the users  can pay the toll tax online using the website.
+1. Registration Page
 
-This program detects and extract the Vehicle Number using TESSERACT OCR ENGINE. Image undergoes different operations to extract the image.
+   ![Registration image](assets/registration.jpg)
+   <br>
+2. login Page
+
+   ![Login page](assets/login.jpg)
+   <br>
+3. Routes plotted on map
+
+   ![Routes plotted on map](assets/route.png)
+   <br>
+
+   <br>
+
 </br>
-</br>
-
-1. First it take image as input.
-
-   ![Sample image](assets/3.jpg)
-   <br>
-2. Then it detects number plate and crop it.
-
-   ![Plate Detection](assets/1.png)
-   <br>
-3. Then it passes the image for processing as follows to extract vehicle Number.
-
-   ![Number Plate Processing](assets/2.png)
-   <br>
-4. Website User Login Page
-
-   ![Website Login Page](assets/4.png)
-   <br>
-5. Payment Page
-
-   ![Website Payment Page](assets/5.png)
-   <br>
-   </br>
 
 ## Installation Prerequisites
 
@@ -67,44 +57,25 @@ This program detects and extract the Vehicle Number using TESSERACT OCR ENGINE. 
 
 > To Download python  [Go to the python Download Website](https://www.python.org/downloads/).
 
-- Tesseract
-
-> To install Tesseract 32 bit version click on the [link](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w32-setup-v5.0.0-alpha.20200328.exe)
-
-> To install Tesseract 64 bit version click on the [link](https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v5.0.0-alpha.20200328.exe)
-
 - Mongodb
 
 > To install Mongodb [Go to this Website](https://docs.mongodb.com/manual/administration/install-community/)
-
-- Paypal accounts
-
-> Create Paypal sandbox developer account and make two different sandbox accounts one business and one personal.
-> Now create a new project via dashboard and copy and paste client_Id key and client sceret key in ``` Website/app.py```.
-
-- Prequisites Folders
-
-> To download models and datasets click on the [link](https://drive.google.com/drive/folders/1Do0C_qO-JSEAD6Nw98XP3o8HJ21IagS2?usp=sharing)
->>>Download the QuickToll Prequisites folder.
->>> Extract the folder and paste all the folder inside it in number_plate folder(models, logs, train, weight).
 
 ---
 
 ## How to Run this Project
 
 1. Clone this Repo to your Local Machine.
-2. Open The Terminal/CMD in the folder QuickToll.
-3. Type ```py -m pip install -r requirements.txt' ```to install all the required libraries.
-4. Enter your mail id and password in ```Website/config.json``` and ```number_plate/config.json ```.
-5. Now create a new project via dashboard and copy the paste client_Id key.
-6. Type ```mongod``` in your Terminal to Run mongodb Server (Ignore if already Running).
-7. To Detect number plate.
-   a. Open terminal in the root folder.
-   b. Type ```cd number_plate``` and hit enter.
-   c. Type ```python main.py ``` and run.
+2. Open The Terminal/CMD in the folder Efficient-Delivery-Route-Planner.
+3. Type py -m pip install -r requirements.txt' to install all the required libraries.
+4. First register yourself by giving your details .
+5. login.
+6. upload employee sheet.
+7. upload orders sheet.
+8. All the routes map have been sent to your as well as employee's mail id.
 
 ## Contributors
 
 [Nitish Kumar](https://github.com/Nitish9711)
 
-[Naveen Kumar](https://github.com/Rajat10Kumar)
+[Naveen Kumar](https://github.com/NaveenKumar519)
