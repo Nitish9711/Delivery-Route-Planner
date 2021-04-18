@@ -32,10 +32,10 @@ class assign(manage_database):
         self.free = []
         for doc in self.employee.find():
             self.free.append(doc['_id'])
-        # print(self.free)
+        print(self.free)
         districts = self.divide.collection_names()
         total_orders = self.orders.count()
-        # print(total_orders)
+        print(total_orders)
 
         # central
         s_d_orders = self.central_delhi.find_one({'_id': self.userId})[self.col_name]
@@ -43,6 +43,7 @@ class assign(manage_database):
 
         # new
         s_d_orders = self.new_delhi.find_one({'_id': self.userId})[self.col_name]
+        print(s_d_orders)
         self.assign.insert({"_id":self.free[1] , "orders":s_d_orders})
 
         # east

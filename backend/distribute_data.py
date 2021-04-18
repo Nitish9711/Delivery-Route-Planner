@@ -70,6 +70,7 @@ class handle_database(Queue,  ao.assign):
         east = []
         west = []
         new_delhi = []
+        print("seperate")
         self.create_divisons(self.userId)
         self.create_documents()
         for i in range(self.cnt):
@@ -148,6 +149,7 @@ class handle_database(Queue,  ao.assign):
         myquery = { "_id": self.userId }
         newvalues = { "$set": data}
         self.new_delhi.update_one(myquery, newvalues)
+        
         self.start_assigning()
 
     def start_assigning (self):

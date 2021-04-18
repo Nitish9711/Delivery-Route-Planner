@@ -150,6 +150,9 @@ def store_distance(col_name):
         cor2 = (coord2["lat"], coord2["long"])
         displacement = distance(cor1, cor2)
         dis.update_one({"_id": "start"}, {"$set":{str(id2) : displacement}})
+    
+    print("start done")
+
     res = requests.get('https://ipinfo.io/')
     data = res.json()
 
@@ -166,6 +169,8 @@ def store_distance(col_name):
         coord = towns.find_one({"town": address})
         cor2 = (coord["lat"], coord["long"])
         dis.insert_one({"_id": order["_id"], "start":distance(cor1, cor2)})
+
+
     for order in orders.find():
         id = order["_id"]
         address = order["Town"]
@@ -191,18 +196,24 @@ class order_route(manage_database, route_order):
         self.userId = userId
         self.col_name  = col_name
         store_distance(self.col_name)
+        print("distance storage done")
         self.get_assign(col_name)
         self.get_Orders(col_name)
         self.get_employee(col_name)
         self.create_divisons(col_name)
         self.create_documents()
         self.get_my_location()
+        print('got location')
         self.get_cord()
+        print('got cord')
         self.get_distance(col_name)
+        print('got distance')
         self.userId = userId
         # print(self.userId)
         # print(self.col_name)
+        print('got user')
         self.plan()
+        print('got plan')
         
         print(" without GPU:", timer()-start)     
 
@@ -303,7 +314,7 @@ class order_route(manage_database, route_order):
     
 
     def send_route_mail(self, email, file_path):
-        fromaddr = "crazypioneers@gmail.com"
+        fromaddr = "nitishkumar12c@gmail.com"
         toaddr = email
 
         msg = MIMEMultipart()
@@ -328,7 +339,7 @@ class order_route(manage_database, route_order):
 
         server = smtplib.SMTP('smtp.gmail.com', 587)
         server.starttls()
-        server.login(fromaddr, "Project@2020")
+        server.login(fromaddr, "9711482366")
 
         text = msg.as_string()
         server.sendmail(fromaddr, toaddr, text)
@@ -347,6 +358,7 @@ class order_route(manage_database, route_order):
             o_list = o_list + doc["orders"]
             z = math.ceil(len(o_list)/10)
             o_list.pop(0)
+            print("1")
             for k in range(z):
                 n_list = ['start']
                 while(len(n_list)!= 11):
@@ -387,8 +399,8 @@ class order_route(manage_database, route_order):
                     long = cord["long"]
                     cor_list.append((lat, long))
                 
-                
                 self.plot(cor_list[0][0], cor_list[0][1],cor_list,final_list,k, post_id,email)
+                print("2")
                 print(final_list)
                 
                 
