@@ -1,9 +1,79 @@
-We are trying to implement a software for a logistics management company. We have linked our services to another corporation which gives us a set of parcels/orders to be delivered to different locations.
-Out motto is to develop a way to efficiently manage the databases of our employees and assign them with orders to be delivered and to produce an output in the form of a Graph.
+# Efficient delivery route planner   
+</br>
 
 
+## Table of Contents
+- [delivery route planner](#delivery route planner)
+  - [Table of Contents](#table-of-contents)
+  - [demo](#demo)
+  - [About](#about)
+  - [Screenshots](#screenshots)
+  - [Installation Prerequisites](#installation-prerequisites)
+  - [How to Run this Project](#how-to-run-this-project)
+  - [Contributors](#contributors)
 
-We would be having an employee database,and a database consisting of all the orders with their unique order Id.
-Now we have already received the parcel from the user and our process starts now and our aim being,delivering the parcel by the earliest with keeping in mind the cost factor.We then process our orders(apply algorithm) and distribute them in such a manner that we are able to build an efficient system.Now we assign orders to our employees(delivery persons) and return the shortest path which each employee would follow while delivering the parcels using Graph Theory and output the path based upon the input given..
-There would be a registration page and login page exclusively for the manager who will then be able to make changes to the employee database and the database of the orders..Manager would be able to see a graph which every delivery person would follow and to each delivery person the path followed by him/her would be shared via
-e-mail.
+
+## demo
+[Click Here to See the PPT](https://drive.google.com/file/d/1jW2ijnGPyzz21Du5PvrWpJDr2dBdprRz/view?usp=sharing)
+         [Click Here to See the DEMO VIDEO](https://drive.google.com/file/d/1YGqgEKVqMO1hXLBKZKEgxSOJsFISC_IQ/view?usp=sharing)
+
+
+## About
+This project deals with the ‘Efficient Delivery: Route Planner’. The software is basically user specific and built for the manager of a corporation to have a look through the work in progress, maintaining the employees’ details, maintaining the order details and how are they being processed at what stage.
+
+In the previous system everything had to be processed manually which at times becomes very hectic for the chief management. All the work had to be fed manually and processed manually without the assurance of authenticity and efficiency of the working/processing.
+
+Now we have built a platform/software where in the chief managing person has the powers to make changes to employees’ file, orders’ list and also delivery an efficient route which the employees’ will follow for the betterment of the company and the timely execution of the orders. The existing system is not totally automated. Though the system is computerized to a particular extent.
+The different processes involved are:
+*	To maintain details of bookings.
+*	To maintain details of employees.
+*	To maintain details of the routes followed by delivery persons.
+*	Efficiency.
+</br>
+</br>
+
+1. Registration Page
+
+    ![Registration image](assets/registration.jpg)
+    <br>
+
+2. login Page
+
+    ![Login page](assets/login.jpg)
+    <br>
+
+3. Routes plotted on map
+
+    ![Routes plotted on map](assets/route.png)
+    <br>
+
+
+    <br>
+</br>
+
+
+## Installation Prerequisites
+- python
+>To Download python  [Go to the python Download Website](https://www.python.org/downloads/).
+
+- Mongodb
+
+> To install Mongodb [Go to this Website](https://docs.mongodb.com/manual/administration/install-community/)
+
+
+---
+
+## How to Run this Project
+1. Clone this Repo to your Local Machine.
+2. Open The Terminal/CMD in the folder Efficient-Delivery-Route-Planner.
+3. Type py -m pip install -r requirements.txt' to install all the required libraries.
+4. First register yourself by giving your details .  
+6. login.
+7. upload employee sheet.
+8. upload orders sheet.
+9. All the routes map have been sent to your as well as employee's mail id.
+
+## Contributors
+[Nitish Kumar](https://github.com/Nitish9711)
+
+[Naveen Kumar](https://github.com/NaveenKumar519)
