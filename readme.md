@@ -4,19 +4,18 @@
 
 ## Table of Contents
 
-- [delivery route planner](#delivery route planner)
-  - [Table of Contents](#table-of-contents)
-  - [demo](#demo)
-  - [About](#about)
-  - [Screenshots](#screenshots)
-  - [Installation Prerequisites](#installation-prerequisites)
-  - [How to Run this Project](#how-to-run-this-project)
-  - [Contributors](#contributors)
+- [Table of Contents](#table-of-contents)
+- [demo](#demo)
+- [About](#about)
+- [Screenshots](#screenshots)
+- [Installation Prerequisites](#installation-prerequisites)
+- [How to Run this Project](#how-to-run-this-project)
+- [Contributors](#contributors)
 
 ## demo
 
-[Click Here to See the PPT](https://drive.google.com/file/d/1jW2ijnGPyzz21Du5PvrWpJDr2dBdprRz/view?usp=sharing)
-[Click Here to See the DEMO VIDEO](https://drive.google.com/file/d/1YGqgEKVqMO1hXLBKZKEgxSOJsFISC_IQ/view?usp=sharing)
+[Click Here to See the PPT](https://drive.google.com/file/d/1uk57w8jLLdFR8R_OlYDj4onyYjFqwTue/view?usp=sharing)
+[Click Here to See the DEMO VIDEO](https://drive.google.com/file/d/1Fg-Hi09E-hwfMJ5v5890-ANpNu-PUwA-/view?usp=sharing)
 
 ## About
 
