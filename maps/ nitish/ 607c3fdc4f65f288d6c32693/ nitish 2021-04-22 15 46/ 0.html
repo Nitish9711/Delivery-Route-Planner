@@ -22,6 +22,18 @@
             map: map
         });
 
+        new google.maps.Marker({
+            position: new google.maps.LatLng(28.651718, 77.221939),
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
+        new google.maps.Marker({
+            position: new google.maps.LatLng(28.593833, 77.134979),
+            icon: marker_icon_FF0000,
+            map: map
+        });
+
         new google.maps.Polyline({
             clickable: false,
             geodesic: true,
@@ -31,6 +43,8 @@
             map: map,
             path: [
                 new google.maps.LatLng(28.651900, 77.231500),
+                new google.maps.LatLng(28.651718, 77.221939),
+                new google.maps.LatLng(28.593833, 77.134979),
                 new google.maps.LatLng(28.651900, 77.231500),
             ]
         });
@@ -43,6 +57,28 @@
             },
             icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEX/TQBcNTh/AAAAAXRSTlMAQObYZgAAAApJREFUeJxjYgAAAAYAAzY3fKgAAAAASUVORK5CYII=",
             position: new google.maps.LatLng(28.651900, 77.231500),
+            map: map
+        });
+
+        new google.maps.Marker({
+            label: {
+                text: "60814cf055f0541c8f25e734",
+                color: "#FFFF00",
+                fontWeight: "bold"
+            },
+            icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEX/TQBcNTh/AAAAAXRSTlMAQObYZgAAAApJREFUeJxjYgAAAAYAAzY3fKgAAAAASUVORK5CYII=",
+            position: new google.maps.LatLng(28.651718, 77.221939),
+            map: map
+        });
+
+        new google.maps.Marker({
+            label: {
+                text: "60814cf055f0541c8f25e735",
+                color: "#FFFF00",
+                fontWeight: "bold"
+            },
+            icon: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQMAAAAl21bKAAAAA1BMVEX/TQBcNTh/AAAAAXRSTlMAQObYZgAAAApJREFUeJxjYgAAAAYAAzY3fKgAAAAASUVORK5CYII=",
+            position: new google.maps.LatLng(28.593833, 77.134979),
             map: map
         });
 
