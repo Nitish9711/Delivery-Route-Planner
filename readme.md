@@ -14,7 +14,7 @@
 
 ## Presentations
 
-[Click Here to See the PPT](https://drive.google.com/file/d/1uk57w8jLLdFR8R_OlYDj4onyYjFqwTue/view?usp=sharing)  
+[Click Here to See the PPT](https://drive.google.com/file/d/1sPOccvbIK2cKudJOWseXmrriS147qceK/view?usp=sharing)
 [Click Here to See the Report](https://drive.google.com/file/d/1MNIR_XuNjbzdcNXN6dDJg1_P8NZKo549/view?usp=sharing)
 
 ## About
